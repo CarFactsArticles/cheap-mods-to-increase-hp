@@ -1,0 +1,122 @@
+ul li {
+  font-weight: normal; /* makes body text uniform */
+}
+
+.bestsportyhybrids {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+ul li strong {
+  font-weight: bold; /* only bold for strong text */
+}
+
+body {
+  background: rgb(211,211,211);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+
+/* -------------------- Sections -------------------- */
+.intro {
+  text-align: center;
+  margin: 5%;
+  min-height: 30vh;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.intro2 {
+  text-align: left;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.links {
+  margin-left: 30.5em;
+}
+
+.airintakeheader .airintake-desc,
+.caibenefits,
+.shifter,
+.airfilter,
+body {
+  text-align: left;
+}
+
+.caibenefits {
+  margin: 50px 0;
+  padding: 5px 8px;
+  min-height: 30vh;
+}
+
+/* -------------------- Images -------------------- */
+.introimage,
+.airintakeimg,
+.airfilterimg,
+.shifterimg {
+  width: 50%;
+  max-width: 100%;
+  min-width: 200px;
+  display: block;
+  margin: 20px auto;
+  padding: 0;
+  border-radius: 5px;
+  border: 3px solid black;
+  height: auto;
+}
+
+.shifterimg {
+  width: 70%;
+  max-width: 100%;
+}
+
+/* -------------------- Text -------------------- */
+p,
+.links {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* -------------------- Other Sections -------------------- */
+.mercedes,
+.civic,
+.info {
+  text-align: center;
+  padding: 40px;
+}
+
+/* -------------------- Logo -------------------- */
+/* KEEPING IT EXACTLY AS IN ORIGINAL */
+
+
+/* -------------------- Responsive -------------------- */
+@media (max-width: 768px) {
+  .introimage,
+  .airintakeimg,
+  .airfilterimg,
+  .shifterimg {
+    width: 90%;
+    min-width: 150px;
+  }
+
+  .intro {
+    margin: 3%;
+    padding: 5px;
+  }
+
+  .links {
+    margin-left: 0;
+  }
+}
